@@ -9,3 +9,14 @@
 header .content {
     height:70px;
 }
+
+
+/* MAIN!!!!  */
+
+main .box-1 {
+    background-color: brown;
+}
+
+main .box-1 .content {
+    height:200px;
+}
