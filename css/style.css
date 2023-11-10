@@ -51,3 +51,16 @@ main .box-4 .content {
     height:150px;
     background-color: brown;
 }
+
+
+/* FOOTER!!!!!!! */
+
+/* BOX 5 */
+footer .box-5 {
+    background-color:green;
+}
+
+footer .box-5 .content {
+    height:80px;
+    background-color: blue;
+}
