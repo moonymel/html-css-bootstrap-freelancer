@@ -41,3 +41,13 @@ main .box-3 .content {
     height:150px;
     background-color: bisque;
 }
+
+/* BOX 3 */
+main .box-4 {
+    background-color:bisque;
+}
+
+main .box-4 .content {
+    height:150px;
+    background-color: brown;
+}
