@@ -64,3 +64,13 @@ footer .box-5 .content {
     height:80px;
     background-color: blue;
 }
+
+/* BOX 6 */
+footer .box-6 {
+    background-color:red;
+}
+
+footer .box-6 .content {
+    height:80px;
+    background-color: brown;
+}
