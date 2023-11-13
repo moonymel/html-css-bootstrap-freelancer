@@ -49,6 +49,37 @@ li {
     position: absolute;
 }
 
+.star_b {
+    font-family: sans-serif;
+    margin: 20px auto;
+    color: #212529;
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+}
+  
+.star_b:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #212529;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+  
+.star_b:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #212529;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
 
 /* HEADER!!!  */
 
@@ -73,14 +104,7 @@ main .box-1 img {
 }
 
 /* BOX 2 */
-main .box-2 {
-    background-color:bisque
-}
 
-main .box-2 .content {
-    height:150px;
-    background-color: brown;
-}
 
 /* BOX 3 */
 main .box-3 {
