@@ -95,7 +95,7 @@ header .content {
 /* MAIN!!!!  */
 
 /* BOX 1 */
-main .box-1 {
+main .box-1, .box-3 {
     background-color: #1abc9c;
 }
 
@@ -107,13 +107,9 @@ main .box-1 img {
 
 
 /* BOX 3 */
-main .box-3 {
-    background-color:brown;
-}
 
 main .box-3 .content {
-    height:150px;
-    background-color: bisque;
+    font-size:15px;
 }
 
 /* BOX 3 */
