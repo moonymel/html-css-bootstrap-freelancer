@@ -11,11 +11,44 @@ ul {
 li {
     display:inline-block;
     margin:0px 10px;
+    font-size:11px;
 }
 
 .upper {
     text-transform:uppercase;
 }
+
+.star_w {
+    font-family: sans-serif;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+}
+  
+.star_w:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: white;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+  
+.star_w:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: white;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
 
 /* HEADER!!!  */
 
@@ -32,11 +65,11 @@ header .content {
 
 /* BOX 1 */
 main .box-1 {
-    background-color: brown;
+    background-color: #1abc9c;
 }
 
-main .box-1 .content {
-    height:200px;
+main .box-1 img {
+    max-width:250px;
 }
 
 /* BOX 2 */
